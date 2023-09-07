@@ -1,6 +1,6 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(./Norse-Bold.otf);
+    src: url(./assets/Norse-Bold.otf);
 }
 html, body {
     width: 100%;
@@ -29,7 +29,7 @@ html body{
     width: 60vw;
     min-width: 345px;
     height: 100vh;
-    background: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
