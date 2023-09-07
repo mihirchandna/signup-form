@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="left-side">
+            <div>
+                <img src="./odin-lined.png" class="logo">
+                <h1 class="text">Odin</h1>
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="header">
+                <div>
+                    <p>
+                        This is not a real online service! You need to do something like this
+                        in your life to help realize your deepest dreams.
+                        </br>
+                        Signup <em>Now</em> to get started.
+                    </p>
+                </div>
+            </div>
+        <div class="input">
+            <form action="" method="post" id="odinform">
+                        <label for="f-name">First Name:</label>
+                        <input type="text" id="f-name" name="f-name" placeholder="eg: John" required>
+            
+                        <label for="s-name">Second Name:</label>
+                        <input type="text"  id="s-name" name="s-name" placeholder="eg: Doe">
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            
+                        <label for="phno">Phone Number:</label>
+                        <input type="tel" id="phno" name="phno" required maxlength="10">
+            
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" oninput="check()" required="required">
+            
+                        <label for="con-password">Confirm Password:</label>
+                        <input type="password" id="con-password" name="con-password" oninput="check()" required="required">
+            </form>
+        </div class='submit-section'>
+            <button type="submit">Submit</button>
+            <div class="para">
+                <p>Already have an account,<a href="#"> Log In</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
